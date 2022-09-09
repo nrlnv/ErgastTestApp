@@ -19,6 +19,7 @@ const persistConfig = {
   key: 'root',
   storage: AsyncStorage,
   blacklist: ['driverSlice'],
+  // needed reducers will be whitelisted
 }
 
 const rootReducer = combineReducers({ driverSlice })
